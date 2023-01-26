@@ -41,8 +41,6 @@ assert args['enable_gan'] is not None, "Specify option for enable/disable GAN fo
 target_dir = args['path'] + '/' + args['name']  # current_dir / project_name
 
 
-ignore = [".git", "data", "saved", "new_project.py", "LICENSE", ".flake8", "README.md",
-            "__pycache__", "trainer_gan.py", "base_trainer_gan.py", "train_gan.py",
-            "test_gan.py", "config_gan.yaml"]
+ignore = [".git", "data", "saved", "new_project.py", "LICENSE", ".flake8", "README.md","__pycache__", "trainer_gan.py", "base_trainer_gan.py", "train_gan.py", "test_gan.py", "config_gan.yaml"]
 copytree(current_dir, target_dir, ignore=ignore_patterns(*ignore))
-print('New project initialized at', target_dir, 'with no GAN option.')
+print('New project initialized at', target_dir)

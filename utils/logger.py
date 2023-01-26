@@ -1,5 +1,5 @@
-import yaml
 import logging
+import yaml
 
 logging.basicConfig(level=logging.INFO, format='')
 
@@ -18,4 +18,4 @@ class Logger:
         self.entries[len(self.entries) + 1] = entry
 
     def __str__(self):
-        return yaml.dumps(self.entries, sort_keys=True, indent=4)
+        return yaml.dump(self.entries, sort_keys=True, indent=4)

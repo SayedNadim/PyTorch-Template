@@ -3,10 +3,10 @@ Test file for the network
 """
 import os
 import argparse
-
-import torch
 from tqdm import tqdm
 import numpy as np
+
+import torch
 
 
 def main(resume):

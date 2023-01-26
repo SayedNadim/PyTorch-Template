@@ -1,14 +1,11 @@
-# PyTorch Project template with/without GAN framework
+# PyTorch Project template
 
-#### *On-going project.*
 
 The aim of this repo is to create my personal PyTorch project framework.
 
-- *This work is currently undergoing trials and errors. I haven't checked everything yet. I just took the code and
-  started editing. I have to make sure everything works before finalizing the template. I will make some example models
+- *This work is currently undergoing trials and errors. I haven't checked everything yet. I will make some example models
   and test with this framework.*
-- Why YAML - I don't like json format. Mainly because I can't comment, and I don't like the look of json files. I apologize for
-  being a language-phobic. It is what it is. I prefer YAML format. So, my configuration files will be in YAML.
+- Why YAML - I don't like json format. Mainly because I can't comment, and I don't like the look of json files. I prefer YAML format. So, my configuration files will be in YAML. You can change to json, just replace yaml with json and it should work.
 
 ## Prerequisites
 
@@ -131,9 +128,10 @@ others:
 ```
 
 ## To-do
-- [x] Check for tree copy errors - Project creation is OK!
-- [ ] Make projects with example models
-- [ ] Train some small/medium models to check every method/class
+- [x] Check for tree copy errors.
+- [ ] Make projects with example models.
+- [ ] Add wandb functionalities.
+- [ ] Add sub-project directory for each experiment.
 
 
 ## Acknowledgements

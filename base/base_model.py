@@ -11,7 +11,7 @@ class BaseModel(nn.Module):
         super(BaseModel, self).__init__()
         self.logger = logging.getLogger(self.__class__.__name__)
 
-    def forward(self, *input):
+    def forward(self, *input_tensor):
         """
         Forward pass logic
         :return: Model output

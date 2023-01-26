@@ -1,11 +1,9 @@
 import os
 import math
-import yaml
 import logging
 import datetime
-
+import yaml
 import torch
-
 from utils.util import ensure_dir
 from utils.visualization import WriterTensorboardX
 from model.layer_utils import init_weights
